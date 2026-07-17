@@ -1,0 +1,27 @@
+# amiBrainAI
+> AI Study & Learning Companion — dual-engine verified
+
+## What is amiBrainAI?
+amiBrainAI is a dual-engine AI study companion. Two AI models (Grok + DeepSeek) cross-verify every answer — concept explanations, flashcards, quizzes, and exam prep you can trust.
+
+## Features
+- Concept explanations at any level (ELI5 to PhD)
+- Flashcard generation for active recall
+- Quiz & exam prep (multiple choice, short answer, essay prompts)
+- Concept mapping and relationship visualization
+- Step-by-step problem solving (math, physics, CS)
+- Multilingual support
+
+## Architecture
+- Dual-engine: Grok 4.5 (xAI) + DeepSeek
+- Anti-confabulation: trigram-cosine concordance >= 0.45 required
+- Stateless: study queries processed in real-time, never stored
+
+## Compliance
+- EU AI Act (Reg. 2024/1689) Art. 50 — limited-risk, full transparency
+- GDPR (Reg. 2016/679) — minimal data, no query storage
+
+## Links
+- Website: https://amibrainai.com
+- API: https://amibrainai-api-production.up.railway.app
+- Contact: hello@amibrainai.com
